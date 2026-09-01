@@ -12,17 +12,17 @@
     "contributors": [],
     "diagrams": [
       {
-        "id": 1,
-        "title": "New STRIDE diagram",
+        "id": 2,
+        "title": "auth.nsfocus.com-DFD数据流图",
         "diagramType": "STRIDE",
         "placeholder": "New STRIDE diagram description",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
         "version": "2.6.2",
         "cells": [],
-        "description": "new"
+        "description": "认证系统数据流图，含外部用户、WAF、负载均衡、Auth服务、Redis、MySQL、短信网关，标注互联网/DMZ/内网信任边界"
       }
     ],
-    "diagramTop": 2,
+    "diagramTop": 3,
     "reviewer": "",
     "threatTop": 0
   }
