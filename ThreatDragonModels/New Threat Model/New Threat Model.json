@@ -5,7 +5,7 @@
   "summary": {
     "title": "New Threat Model",
     "owner": "star",
-    "description": "",
+    "description": "本模型针对 auth.nsfocus.com 网页认证系统做威胁建模练习。\n系统为Web账号认证服务，包含用户登录、验证码校验、密码找回、会话令牌管理等功能。\n流量经过WAF/负载均衡，后端使用Redis存储会话、MySQL存储账号数据，调用短信/邮件网关发送验证码。\n本项目仅用于学习演练，不针对真实系统做实际攻击或探测。",
     "id": 0
   },
   "detail": {
